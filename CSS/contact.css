@@ -1,0 +1,260 @@
+.Contact-us-text {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 3rem;
+    width: 40rem;
+    color: white;
+}
+.banner-contact {
+    display: flex;
+    width: 84rem;
+    flex-direction: column;
+}
+.contact_us {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.info-boxes,
+.mobile-boxinfo {
+    display: flex;
+    flex-direction: row;
+    width: 70rem;
+    margin:  1rem 8rem;
+    align-items: center;
+}
+.boxes {
+    width: 25rem;
+    height: 28vh;
+    box-shadow: var(--shadow) ;
+    margin-top: -55px;
+    margin-right: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.desktop-boxinfo {
+    display: none;
+}
+.appointment {
+    width: 84.3rem;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(250, 248, 248);
+}
+.logo-left-section {
+    width: 40rem;
+    height: 60vh;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 5rem;
+    border-bottom: 2px solid var(--about-main-color);
+}
+.text-right-section {
+    width: 40rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.input-box {
+    width: 20rem;
+    height: 5vh;
+    margin-top: 20px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    border-color:  var(--about-main-color);
+    box-shadow: var(--shadow)
+}
+.input_box {
+    width: 20rem;
+    height: 10vh;
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    border-color: var(--about-main-color);
+}
+.send-bt {
+    width: 20rem;
+    height: 8vh;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    background: var(--main-color-linear);
+}
+.bt {
+    background: var(--main-color-linear) ;
+    border: 0;
+    font-size: 2rem;
+}
+@media only screen and (min-width:600px){
+    .mobile-boxinfo {
+        display: none;
+    }
+    .desktop-boxinfo {
+        display: flex;
+    }
+    .banner-contact {
+        display: flex;
+        flex-direction: column;
+        width: 85rem;
+    }
+    .info-boxes {
+        display: flex;
+        flex-direction: row;
+        width: 70rem;
+        margin:  1rem auto;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .boxes {
+        width: 25rem;
+        height: 28vh;
+        box-shadow: var(--shadow) ;
+        margin-top: -55px;
+        font-size: 13px;
+        margin-right: 20px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.4rem;
+        flex-direction: column;
+    }
+    .mobile-boxinfo {
+        display: none;
+    }
+}
+@media only screen and (min-width:900px){
+    .Contact-us-text {
+        display: flex;
+        flex-direction: column;
+        margin: 7rem auto;
+        width: 40rem;
+        color: white;
+        align-items: center;
+    }
+    .banner-contact {
+        display: flex;
+        flex-direction: column;
+        width: 84rem;
+    }
+    .contact_us {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .info-boxes {
+        display: flex;
+        flex-direction: row;
+        width: 70rem;
+        margin:  1rem auto;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .boxes {
+        width: 25rem;
+        height: 28vh;
+        box-shadow: var(--shadow) ;
+        margin-top: -55px;
+        font-size: 13px;
+        margin-right: 20px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.4rem;
+        flex-direction: column;
+    }
+    .mobile-boxinfo {
+        display: none;
+    }
+    .desktop-boxinfo {
+        display: flex;
+    }
+    .head-tx-contact {
+        color:black ;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: -2rem;
+    }
+    .small {
+        font-weight: 650;
+        color: black;
+    }
+    small {
+        margin-top: 1rem;
+    }
+    .appointment {
+        width: 84rem;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        background: rgb(250, 248, 248);
+    }
+    .logo-left-section {
+        width: 40rem;
+        height: 60vh;
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 7rem 5rem;
+        border-right: 2px solid var(--about-main-color);
+        border-bottom: 1px solid white;
+    }
+    .text-right-section {
+        width: 40rem;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem auto;
+    }
+    .input-box {
+        width: 20rem;
+        height: 5vh;
+        margin-top: 20px;
+        padding: 15px 5px;
+        border-radius: 5px;
+        border-color:  var(--about-main-color);
+        box-shadow: var(--shadow)
+    }
+    .input_box {
+        width: 20rem;
+        height: 10vh;
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 15px 5px;
+        border-radius: 5px;
+        box-shadow: var(--shadow);
+        border-color: var(--about-main-color);
+    }
+    .send-bt {
+        width: 20rem;
+        height: 8vh;
+        text-align: center;
+        margin-top: 50px;
+        padding: 15px 5px;
+        border-radius: 5px;
+        box-shadow: var(--shadow);
+        background: var(--main-color-linear);
+    }
+    .bt {
+        background: var(--main-color-linear) ;
+        border: 0;
+        font-size: 2rem;
+    }
+}
